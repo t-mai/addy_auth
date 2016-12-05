@@ -4,8 +4,8 @@
   "description": "addy-auth",
   "main": "server.js",
   "dependencies": {
-    "uuid": "1.4.3",
-		"ws": "0.7.1"
+    "uuid":"*",
+		"ws": "*"
   },
   "engine": {
     "node": "*",
