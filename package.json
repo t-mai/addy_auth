@@ -1,0 +1,31 @@
+{
+  "name": "addy-auth",
+  "version": "0.0.1",
+  "description": "addy-auth",
+  "main": "server.js",
+  "dependencies": {
+    "node-uuid": "1.4.3",
+		"ws": "0.7.1"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "dev": "nodemon --ignore node_modules/ server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t-mai/addy_auth.git"
+  },
+  "keywords": [
+    "Addy Authentication"
+  ],
+  "author": "Mai Xuan Trang <trangmx@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/t-mai/addy_auth/issues"
+  },
+  "homepage": ""
+}
