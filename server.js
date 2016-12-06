@@ -60,7 +60,6 @@ var server = http.createServer(function(request, response) {
     }
 });
 server.listen(port);
-console.log('Server running on ' + ip + ':' + port);
 
 var WebSocketServer = require('ws').Server
 var uuid = require('uuid');
@@ -89,3 +88,5 @@ wss.on('connection', function connection(ws) {
 
     });
 });
+
+console.log('Server running on ' + ip + ':' + port);
