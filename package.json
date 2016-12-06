@@ -1,9 +1,11 @@
 {
-  "name": "node-echo",
+  "name": "addy-auth",
   "version": "0.0.1",
-  "description": "node-echo",
+  "description": "addy-auth",
   "main": "server.js",
   "dependencies": {
+    "ws":"*",
+    "uuid":"*"
   },
   "devDependencies": {
     "nodemon": "*"
