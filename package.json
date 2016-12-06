@@ -1,11 +1,12 @@
 {
-  "name": "addy-auth",
+  "name": "node-echo",
   "version": "0.0.1",
-  "description": "addy-auth",
+  "description": "node-echo",
   "main": "server.js",
   "dependencies": {
-    "uuid":"*",
-		"ws": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
   },
   "engine": {
     "node": "*",
@@ -17,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/t-mai/addy_auth.git"
+    "url": "http://github.com/bettiolo/node-echo.git"
   },
   "keywords": [
-    "Addy Authentication"
+    "Echo"
   ],
-  "author": "Mai Xuan Trang <trangmx@gmail.com>",
+  "author": "Marco Bettiolo <marco@bettiolo.it>",
   "license": "",
   "bugs": {
-    "url": "https://github.com/t-mai/addy_auth/issues"
+    "url": "http://github.com/bettiolo/node-echo/issues"
   },
-  "homepage": ""
+  "homepage": "http://apilb.com"
 }
